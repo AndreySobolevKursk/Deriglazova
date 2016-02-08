@@ -13,3 +13,19 @@ $blue_header: #1565c0;
 //Шрифты
 
 //Шрифты
+
+body {
+	background-color: $cyan_header;
+}
+
+header {
+	height: 300px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1565c0+0,7db9e8+100 */
+	background: #1565c0; /* Old browsers */
+	background: -moz-linear-gradient(top,  $blue_header 0%, $cyan_header 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  $blue_header 0%,$cyan_header 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  $blue_header 0%,$cyan_header 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1565c0', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}

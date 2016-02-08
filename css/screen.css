@@ -66,3 +66,24 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 17, ../sass/screen.scss */
+body {
+  background-color: #b2ebf2;
+}
+
+/* line 21, ../sass/screen.scss */
+header {
+  height: 300px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1565c0+0,7db9e8+100 */
+  background: #1565c0;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1565c0 0%, #b2ebf2 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1565c0 0%, #b2ebf2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1565c0 0%, #b2ebf2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1565c0', endColorstr='#7db9e8',GradientType=0 );
+  /* IE6-9 */
+}
