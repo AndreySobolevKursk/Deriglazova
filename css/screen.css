@@ -66,3 +66,26 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+@font-face {
+  font-family: 'Souses';
+  src: local("Souses"), url("../fonts/souses.woff2") format("woff2"), url("../fonts/souses.woff") format("woff"), url("../fonts/souses.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+/* line 22, ../sass/screen.scss */
+header {
+  margin-top: 20px;
+}
+/* line 25, ../sass/screen.scss */
+header #header-logo {
+  height: 100px;
+}
+/* line 30, ../sass/screen.scss */
+header #header-title span {
+  display: block;
+}
+/* line 35, ../sass/screen.scss */
+header #header-logo, header #header-title {
+  display: inline-block;
+}

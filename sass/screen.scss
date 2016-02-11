@@ -10,6 +10,31 @@
 //Цвета
 
 //Шрифты
-
+@font-face {
+    font-family: 'Souses';
+    src: local('Souses'), url('../fonts/souses.woff2') format('woff2'), url('../fonts/souses.woff') format('woff'), url('../fonts/souses.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
 //Шрифты
+
+//Шапка
+header {
+	margin-top: 20px;
+
+	#header-logo {
+		height: 100px;
+	}
+
+	#header-title {
+		span {
+			display: block;
+		}
+	}
+
+	#header-logo, #header-title {
+		display: inline-block;
+	}
+}
+
 
