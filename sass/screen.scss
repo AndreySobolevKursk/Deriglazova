@@ -6,7 +6,8 @@
 @import "compass/reset";
 
 //Цвета
-
+$green-header-title: #1E824C;
+$blue: #3498db;
 //Цвета
 
 //Шрифты
@@ -16,6 +17,44 @@
     font-weight: 800;
     font-style: italic;
 }
+@font-face {
+    font-family: 'Vremena Grotesk 400';
+    src: local('Vremena Grotesk'), local('VremenaGrotesk'), url('../fonts/vremenagrotesk.woff2') format('woff2'), url('../fonts/vremenagrotesk.woff') format('woff'), url('../fonts/vremenagrotesk.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vremena Grotesk 400 Italic';
+    src: local('Vremena Grotesk Italic'), local('VremenaGroteskItalic'), url('../fonts/vremenagroteskitalic.woff2') format('woff2'), url('../fonts/vremenagroteskitalic.woff') format('woff'), url('../fonts/vremenagroteskitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: local('Vremena Grotesk Medium'), local('VremenaGroteskMedium'), url('../fonts/vremenagroteskmedium.woff2') format('woff2'), url('../fonts/vremenagroteskmedium.woff') format('woff'), url('../fonts/vremenagroteskmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vremena Grotesk Italic';
+    src: local('Vremena Grotesk Medium Italic'), local('VremenaGroteskMediumItalic'), url('../fonts/vremenagroteskmediumitalic.woff2') format('woff2'), url('../fonts/vremenagroteskmediumitalic.woff') format('woff'), url('../fonts/vremenagroteskmediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Vremena Grotesk Bold';
+    src: local('Vremena Grotesk Bold'), local('VremenaGroteskBold'), url('../fonts/vremenagroteskbold.woff2') format('woff2'), url('../fonts/vremenagroteskbold.woff') format('woff'), url('../fonts/vremenagroteskbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vremena Grotesk Bold Italic';
+    src: local('Vremena Grotesk Bold Italic'), local('VremenaGroteskBoldItalic'), url('../fonts/vremenagroteskbolditalic.woff2') format('woff2'), url('../fonts/vremenagroteskbolditalic.woff') format('woff'), url('../fonts/vremenagroteskbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+$vremena: 'Vremena Grotesk';
 //Шрифты
 
 //Шапка
@@ -29,11 +68,116 @@ header {
 	#header-title {
 		span {
 			display: block;
+			font-family: 'Souses';
+			font-size: 18px;
+			font-style: normal;
+			color: $green-header-title;
+		}
+
+		span:first-child{
+			font-size: 30px;
 		}
 	}
 
 	#header-logo, #header-title {
 		display: inline-block;
+	}
+
+	.head-info {
+		display: flex;
+		align-items: center;
+
+		.date-time {
+			font-family: $vremena;
+			font-size: 18px;
+			font-weight: 500;
+			font-style: normal;
+			padding: 0px 15px 5px 15px;
+			color: $blue;		
+		}
+
+		.date-time:first-child {
+			padding-left: 0;
+		}
+
+		#head-fire-title {
+			font-family: $vremena;
+			font-size: 18px;
+			font-weight: 700;
+			font-style: normal;
+			padding: 20px 0px 5px 0px;
+			//color: $blue;
+		}
+
+		#head-hot-link {
+			padding: 5px 0px 0px 0px;
+			font-family: $vremena;
+			font-size: 16px;
+			color: $green-header-title;
+			text-decoration: underline;
+		}
+
+		#head-hot-link:hover {
+			text-decoration: none;
+		}
+	}
+
+	#head-enter {
+		overflow: hidden;
+		padding-bottom: 6px;
+		.head-lk-link {
+			font-family: $vremena;
+			font-size: 16px;
+
+			a {
+				color: $blue;
+				border-bottom: 2px dotted $blue;
+			}
+
+			a:hover {
+				border-bottom: none;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.informer {
+		margin-top: 15px;
+		overflow: hidden;
+		.informer-link {
+			display: flex;
+			align-items: center;
+			font-family: $vremena;
+			font-size: 16px;
+
+			a, #header-temperature {
+				color: $green-header-title;
+				margin-right: 10px;
+			}
+
+			#header-temperature {
+				color: $blue;
+			}
+			
+			#weather {
+				margin-right: 5px;
+			}
+
+			.valuta {
+				color: #6C7A89;
+				margin-right: 10px;
+
+				span {
+					font-family: sans-serif;
+					font-weight: bold;
+					color: $blue;
+				}
+			}
+
+			.valuta:last-child {
+				margin-left: 10px;
+			}
+		}
 	}
 }
 
