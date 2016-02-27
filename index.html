@@ -24,7 +24,7 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 head-logo-wrap">
             <img id="header-logo" src="images/logo_header.png" alt="Информационный портал проспект Анатолия Дериглазова микрорайон Северный">
             <div id="header-title">
               <span>Дериглазовский</span>
@@ -33,9 +33,9 @@
           </div>
           <div class="col-md-4">
             <div class="head-info">
-              <span class="date-time">12 февраля</span>
-              |<span class="date-time">пятница</span>|
-              <span class="date-time">18<span>:</span>54</span>
+              <span class="date-time">Сегодня</span>
+              |<span class="date-time">12 февраля</span>|
+              <span class="date-time">пятница</span>
             </div>
             <div class="head-info">
               <span id="head-fire-title">Интересная ссылка:</span>
@@ -44,12 +44,39 @@
               <a href="#" id="head-hot-link">На проспект Анатолия Дериглазова в скором времени пустят троллейбусы</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 header-last-col">
             <div id="head-enter">
-              <span class="head-lk-link"><a href="">Вход</a></span>
-              | <span class="head-lk-link"><a href="">Регистрация</a></span> |
-              <span class="head-lk-link"><a href="">Поиск</a></span>
+              <span class="head-lk-link"><a class="js-head-lk-enter" href="">Вход&nbsp;&nbsp;&nbsp;</a></span>
+              | <span class="head-lk-link"><a href="">&nbsp;&nbsp;&nbsp;Регистрация&nbsp;&nbsp;&nbsp;</a></span> |
+              <span class="head-lk-link"><a class="js-head-lk-search" href="">&nbsp;&nbsp;&nbsp;Поиск</a></span>
+
+            <div class="js-head-enter-block head-lk-enter__enter-block">
+              <h4 class="head-lk-enter__title">Авторизация</h4>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Пароль</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Введите пароль">
+                </div>
+                <button type="submit" class="btn btn-success">Войти</button>
+              </form>
             </div>
+            <div class="js-head-search-block head-lk-search__search-block">
+              <h4 class="head-lk-search__title">Поиск</h4>
+              <form class="form-inline">
+                <div class="form-group">
+                  <input type="text" class="form-control head-lk-search__input" id="exampleInputName1" placeholder="Найти...">
+                </div>
+                <button type="submit" class="btn btn-info">Найти</button>
+              </form>
+            </div>
+
+            </div>
+
+
             <div class="informer">
               <span class="informer-link">
                 <a href="">Погода</a>
@@ -76,11 +103,86 @@
         </div>
       </div>
     </header>
-    <h1>Hello, world!</h1>
+
+    <div class="container">
+      <nav class="navbar navbar-default nav-green" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-home glyphicon-color"></span>
+              </a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav nav-list-wrap">
+                <li class="active"><a href="#">О микрорайоне</a></li>
+                <li><a href="#">Справочник</a></li>
+                <li><a href="#">Объявления</a></li>
+                <li><a href="#">Сообщество</a></li>
+                <li><a href="#">Чат</a></li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    </div>
+    
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="home-content-title">Новости микрорайона</h2>
+            <div class="home-news__wrap">
+              <div class="home-news__hot">
+                <img src="images/news/test-news-img.jpg" alt="" class="home-news__img">
+                <div class="home-news__link_hot">
+                <a href="">ТестоваЯ главная новоcть</a>
+                </div>
+              </div>
+              <div class="home-news__link_wrap">
+                <ul>
+                  <li><a href="">Ссылка на новость</a></li>
+                  <li><a href="">Ссылка на новость</a></li>
+                  <li><a href="">Ссылка на новость</a></li>
+                  <li><a href="">Ссылка на новость</a></li>
+                </ul>
+              </div>
+            </div>        
+          </div>
+          <div class="col-md-3">
+            <h2 class="home-content-title">Личный кабинет</h2>
+            <div class="home-lk__wrap">
+              <div class="home-lk__info">
+                Ваш логин<br>
+                Ваше имя<br>
+                Ваша фамилия<br>
+                Дом 523
+              </div>
+              <div class="home-lk__info">
+                <img src="images/avatars/no-avatar.png" alt="">
+              </div>
+              <div class="home-lk__links">
+                <a href="">Мои сообщения</a>
+                <a href="">Мои группы</a>
+                <a href="">Настроить профиль</a>
+                <a href="" class="home-lk__links_exit">Выйти</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <h1>Привет мир</h1>
+      </div>
+    </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS -->
+    <script src="js/script.js"></script>
   </body>
 </html>
