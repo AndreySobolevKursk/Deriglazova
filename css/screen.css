@@ -44,23 +44,23 @@
   font-weight: 700;
   font-style: italic;
 }
-/* line 64, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 header {
   margin-top: 20px;
 }
-/* line 67, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 header .head-logo-wrap {
   padding-top: 12.7px;
 }
-/* line 71, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 header #header-logo {
   height: 100px;
 }
-/* line 75, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 header #header-title {
   vertical-align: bottom;
 }
-/* line 78, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 header #header-title span {
   display: block;
   font-family: 'Souses';
@@ -68,20 +68,20 @@ header #header-title span {
   font-style: normal;
   color: #2ECC71;
 }
-/* line 86, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 header #header-title span:first-child {
   font-size: 30px;
 }
-/* line 91, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 header #header-logo, header #header-title {
   display: inline-block;
 }
-/* line 95, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 header .head-info {
   display: flex;
   align-items: center;
 }
-/* line 99, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 header .head-info .date-time {
   font-family: "Vremena Grotesk";
   font-size: 18px;
@@ -90,11 +90,11 @@ header .head-info .date-time {
   padding: 0px 15px 5px 15px;
   color: #3498db;
 }
-/* line 108, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 header .head-info .date-time:first-child {
   padding-left: 0;
 }
-/* line 112, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 header .head-info #head-fire-title {
   font-family: "Vremena Grotesk";
   font-size: 18px;
@@ -102,7 +102,7 @@ header .head-info #head-fire-title {
   font-style: normal;
   padding: 0px 0px 5px 0px;
 }
-/* line 121, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 header .head-info #head-hot-link {
   padding: 5px 0px 0px 0px;
   font-family: "Vremena Grotesk";
@@ -110,32 +110,32 @@ header .head-info #head-hot-link {
   color: #2ECC71;
   text-decoration: underline;
 }
-/* line 129, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 header .head-info #head-hot-link:hover {
   text-decoration: none;
   color: #1E824C;
 }
-/* line 135, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 header #head-enter {
   overflow: hidden;
   padding-bottom: 6px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 header #head-enter .head-lk-link {
   font-family: "Vremena Grotesk";
   font-size: 16px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 header #head-enter .head-lk-link a {
   color: #3498db;
   border-bottom: 2px dotted #3498db;
 }
-/* line 148, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 header #head-enter .head-lk-link a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 155, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 header #head-enter .head-lk-enter__enter-block {
   display: none;
   position: absolute;
@@ -148,19 +148,19 @@ header #head-enter .head-lk-enter__enter-block {
   width: 300px;
   z-index: 1;
 }
-/* line 167, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 header #head-enter .head-lk-enter__enter-block_active {
   display: block;
 }
-/* line 171, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 header #head-enter .head-lk-enter__enter-block .btn {
   float: right;
 }
-/* line 176, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 header #head-enter .head-lk-enter__title {
   margin-top: 0;
 }
-/* line 182, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 header #head-enter .head-lk-search__search-block {
   display: none;
   position: absolute;
@@ -173,111 +173,171 @@ header #head-enter .head-lk-search__search-block {
   width: 402px;
   z-index: 1;
 }
-/* line 194, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 header #head-enter .head-lk-search__search-block_active {
   display: block;
 }
-/* line 199, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 header #head-enter .head-lk-search__title {
   margin-top: 0;
 }
-/* line 203, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 header #head-enter .head-lk-search__input {
   width: 300px;
 }
-/* line 209, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 header .informer {
   margin-top: 15px;
   overflow: hidden;
 }
-/* line 212, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 header .informer .informer-link {
   display: flex;
   align-items: center;
   font-family: "Vremena Grotesk";
   font-size: 16px;
 }
-/* line 218, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 header .informer .informer-link a, header .informer .informer-link #header-temperature {
   color: #2ECC71;
   margin-right: 10px;
 }
-/* line 223, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 header .informer .informer-link #header-temperature {
   color: #3498db;
   margin-right: 0px;
 }
-/* line 228, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 header .informer .informer-link #weather {
   margin-right: 5px;
 }
-/* line 232, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 header .informer .informer-link .valuta {
   color: #6C7A89;
   margin-right: 10px;
 }
-/* line 236, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 header .informer .informer-link .valuta span {
   font-family: sans-serif;
   font-weight: bold;
   color: #3498db;
 }
-/* line 243, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 header .informer .informer-link .valuta:last-child {
   margin-left: 10px;
   margin-right: 0px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 header .header-last-col > div {
   display: flex;
   justify-content: flex-end;
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .nav-green {
   background-color: #2ECC71;
   margin-top: 15px;
 }
-/* line 261, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .nav-green .glyphicon-color {
   color: #fff;
 }
-/* line 265, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .nav-green .nav-list-wrap {
   font-family: "Vremena Grotesk";
   font-weight: 500;
 }
-/* line 270, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .nav-green .nav-list-wrap > .active > a, .nav-green .nav-list-wrap > .active .nav-list-wrap > .active > a:hover {
   background-color: #1E824C !important;
   color: #fff !important;
 }
-/* line 276, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .nav-green .nav-list-wrap > li > a {
   color: #fff;
 }
-/* line 280, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .nav-green .nav-list-wrap > li > a:hover {
   color: #1E824C;
 }
 
-/* line 288, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 main .home-content-title {
   font-family: "Souses";
   font-size: 28px;
 }
-/* line 292, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 main .home-content-title:first-letter {
   font-size: 36px;
   color: #2ECC71;
 }
+/* line 302, ../sass/screen.scss */
+main .home-content-title_blue {
+  font-family: "Souses";
+  font-size: 28px;
+}
+/* line 306, ../sass/screen.scss */
+main .home-content-title_blue:first-letter {
+  font-size: 36px;
+  color: #3498db;
+}
+/* line 312, ../sass/screen.scss */
+main .home-content-title_black-blue {
+  font-family: "Souses";
+  font-size: 28px;
+}
+/* line 316, ../sass/screen.scss */
+main .home-content-title_black-blue:first-letter {
+  font-size: 36px;
+  color: #1F3A93;
+}
+/* line 322, ../sass/screen.scss */
+main .home-content-title_black-purpur {
+  font-family: "Souses";
+  font-size: 28px;
+}
+/* line 326, ../sass/screen.scss */
+main .home-content-title_black-purpur:first-letter {
+  font-size: 36px;
+  color: #8E44AD;
+}
+/* line 332, ../sass/screen.scss */
+main .home-content-title_pink {
+  font-family: "Souses";
+  font-size: 28px;
+}
+/* line 336, ../sass/screen.scss */
+main .home-content-title_pink:first-letter {
+  font-size: 36px;
+  color: #F62459;
+}
+/* line 342, ../sass/screen.scss */
+main .home-content-title_orange {
+  font-family: "Souses";
+  font-size: 28px;
+}
+/* line 346, ../sass/screen.scss */
+main .home-content-title_orange:first-letter {
+  font-size: 36px;
+  color: #F9690E;
+}
+/* line 352, ../sass/screen.scss */
+main .home-content-title_red {
+  font-family: "Souses";
+  font-size: 28px;
+}
+/* line 356, ../sass/screen.scss */
+main .home-content-title_red:first-letter {
+  font-size: 36px;
+  color: #F22613;
+}
 
-/* line 304, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 .home-news__hot {
   width: 480px;
   display: inline-block;
 }
-/* line 314, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .home-news__link_hot {
   display: block;
   position: relative;
@@ -287,13 +347,13 @@ main .home-content-title:first-letter {
   height: 68px;
   background-color: rgba(46, 204, 113, 0.7);
 }
-/* line 324, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 .home-news__link_hot a {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
 }
-/* line 331, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 .home-news__link_wrap {
   width: 367.5px;
   margin-left: -4px;
@@ -301,17 +361,17 @@ main .home-content-title:first-letter {
   display: inline-block;
   vertical-align: top;
 }
-/* line 338, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 .home-news__link_wrap ul {
   list-style-type: none;
   padding: 0 0 0 0;
 }
-/* line 342, ../sass/screen.scss */
+/* line 408, ../sass/screen.scss */
 .home-news__link_wrap ul li {
   background-color: #2ECC71;
   height: 68px;
 }
-/* line 347, ../sass/screen.scss */
+/* line 413, ../sass/screen.scss */
 .home-news__link_wrap ul li a {
   color: #fff;
   font-size: 16px;
@@ -321,47 +381,165 @@ main .home-content-title:first-letter {
   height: 100%;
   padding: 10px;
 }
-/* line 359, ../sass/screen.scss */
+/* line 425, ../sass/screen.scss */
 .home-news__link_wrap ul li:hover {
   background-color: #1E824C;
 }
 
-/* line 369, ../sass/screen.scss */
-.home-lk__wrap {
-  height: 272px;
-  background-color: #2ECC71;
-  padding: 10px;
+/* line 435, ../sass/screen.scss */
+.home-goroskop__wrap {
+  background-color: #3498db;
+  height: 400px;
 }
-/* line 375, ../sass/screen.scss */
-.home-lk__info {
-  display: inline-block;
-  width: 49%;
-  vertical-align: top;
+/* line 439, ../sass/screen.scss */
+.home-goroskop__wrap img {
+  margin: 0  auto;
+}
+/* line 444, ../sass/screen.scss */
+.home-goroskop__caption {
+  right: 0;
+  left: 0;
+  font-family: "Vremena Grotesk";
+}
+/* line 450, ../sass/screen.scss */
+.home-goroskop__indicators {
+  bottom: 0;
+}
+
+/* line 456, ../sass/screen.scss */
+.home-marketing_baner-1 {
+  margin-top: 28px;
+  width: 847.5px;
+  height: 100px;
+}
+
+/* line 464, ../sass/screen.scss */
+.home__level-2 {
+  margin-top: 10px;
+}
+/* line 468, ../sass/screen.scss */
+.home__level-3 {
+  margin-top: 10px;
+}
+
+/* line 474, ../sass/screen.scss */
+.home-directory__wrap {
+  background-color: #8E44AD;
+  padding: 15px;
+}
+/* line 478, ../sass/screen.scss */
+.home-directory__wrap ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin: 0;
+}
+/* line 487, ../sass/screen.scss */
+.home-directory__wrap a {
+  display: block;
+  font-family: "Vremena Grotesk";
+  font-weight: normal;
+  font-size: 18px;
+  font-style: normal;
   color: #fff;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 1.7;
+  padding: 4.3px 0;
 }
-/* line 384, ../sass/screen.scss */
-.home-lk__info img {
-  width: 100px;
+
+/* line 502, ../sass/screen.scss */
+.home-blogs__post_title {
+  margin-top: 0;
+}
+/* line 505, ../sass/screen.scss */
+.home-blogs__post_title a {
+  color: #F62459;
+  font-family: "Vremena Grotesk";
+  font-weight: bold;
+}
+/* line 512, ../sass/screen.scss */
+.home-blogs__post article {
+  font-family: "Vremena Grotesk";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+/* line 522, ../sass/screen.scss */
+.home-blogs__post_info .glyphicon {
+  color: #F62459;
+  font-size: 24px;
+}
+/* line 526, ../sass/screen.scss */
+.home-blogs__post_info .glyphicon time {
+  font-family: "Souses";
+  font-size: 16px;
+  padding: 5px;
+}
+/* line 532, ../sass/screen.scss */
+.home-blogs__post_info .glyphicon a {
+  font-family: "Vremena Grotesk";
+  font-size: 16px;
+  color: #F62459;
+  padding-left: 5px;
+}
+/* line 539, ../sass/screen.scss */
+.home-blogs__post_info .glyphicon:last-child {
   float: right;
 }
-/* line 390, ../sass/screen.scss */
-.home-lk__links {
-  color: #3498db;
+
+/* line 548, ../sass/screen.scss */
+.home-map__wrap {
+  width: 100%;
+  height: 630.7px;
+}
+
+/* line 557, ../sass/screen.scss */
+.home-ads__post_title {
+  margin-top: 0;
+}
+/* line 560, ../sass/screen.scss */
+.home-ads__post_title a {
+  color: #F9690E;
+  font-family: "Vremena Grotesk";
+  font-weight: bold;
+}
+/* line 567, ../sass/screen.scss */
+.home-ads__post img {
+  display: inline-block;
+  width: 200px;
+  height: 113px;
+}
+/* line 573, ../sass/screen.scss */
+.home-ads__post article {
+  display: inline-block;
+  width: 60%;
+  font-family: "Vremena Grotesk";
+  font-weight: normal;
   font-size: 15px;
-  font-weight: 600;
-  padding-top: 15px;
-  height: 150px;
-  text-align: right;
+  line-height: 1;
+  vertical-align: top;
 }
-/* line 398, ../sass/screen.scss */
-.home-lk__links_exit {
-  margin-top: 50px;
-  color: red;
+/* line 583, ../sass/screen.scss */
+.home-ads__post_info {
+  width: 100%;
+  margin-top: 5px;
 }
-/* line 403, ../sass/screen.scss */
-.home-lk__links a {
-  display: block;
+/* line 587, ../sass/screen.scss */
+.home-ads__post_info .glyphicon {
+  color: #F9690E;
+  font-size: 24px;
+}
+/* line 591, ../sass/screen.scss */
+.home-ads__post_info .glyphicon time {
+  font-family: "Souses";
+  font-size: 16px;
+  padding: 5px;
+}
+/* line 597, ../sass/screen.scss */
+.home-ads__post_info .glyphicon a {
+  font-family: "Vremena Grotesk";
+  font-size: 16px;
+  color: #F9690E;
+  padding-left: 5px;
 }

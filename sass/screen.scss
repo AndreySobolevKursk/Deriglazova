@@ -9,7 +9,12 @@
 $green-header-title-hover: #1E824C;
 $green-header-title: #2ECC71;
 $blue: #3498db;
+$black-blue: #1F3A93;
+$black-purpur: #8E44AD;
 $nav-link-color: #fff;
+$pink: #F62459;
+$red: #F22613;
+$orange: #F9690E;
 //Цвета
 
 //Шрифты
@@ -293,7 +298,68 @@ main {
 			font-size: 36px;
 			color: $green-header-title;
 		}
+
+		&_blue{
+			font-family: $souses;
+			font-size: 28px;
+			
+			&:first-letter{
+				font-size: 36px;
+				color: $blue;
+			}
+		}
+
+		&_black-blue{
+			font-family: $souses;
+			font-size: 28px;
+			
+			&:first-letter{
+				font-size: 36px;
+				color: $black-blue;
+			}
+		}
+
+		&_black-purpur{
+			font-family: $souses;
+			font-size: 28px;
+			
+			&:first-letter{
+				font-size: 36px;
+				color: $black-purpur;
+			}
+		}
+
+		&_pink{
+			font-family: $souses;
+			font-size: 28px;
+			
+			&:first-letter{
+				font-size: 36px;
+				color: $pink;
+			}
+		}
+
+		&_orange{
+			font-family: $souses;
+			font-size: 28px;
+			
+			&:first-letter{
+				font-size: 36px;
+				color: $orange;
+			}
+		}
+
+		&_red{
+			font-family: $souses;
+			font-size: 28px;
+			
+			&:first-letter{
+				font-size: 36px;
+				color: $red;
+			}
+		}
 	}
+
 }
 .home-news{
 
@@ -364,44 +430,177 @@ main {
 	}
 }
 
-.home-lk{
+.home-goroskop{
 
 	&__wrap{
-		height: 272px;
-		background-color: $green-header-title;
-		padding: 10px;
-	}
-
-	&__info{
-		display: inline-block;
-		width: 49%;
-		vertical-align: top;
-		color: #fff;
-		font-weight: 600;
-		font-size: 15px;
-		line-height: 1.7;
+		background-color: $blue;
+		height: 400px;
 
 		img{
-			width: 100px;
-			float: right;
+			margin: 0  auto;
 		}
 	}
 
-	&__links{
-		color: $blue;
-		font-size: 15px;
-		font-weight: 600;
-		padding-top: 15px;
-		height: 150px;
-		text-align: right;
+	&__caption{
+		right: 0;
+		left: 0;
+		font-family: $vremena;
+	}
 
-		&_exit{
-			margin-top: 50px;
-			color: red;
+	&__indicators{
+		bottom: 0;
+	}
+}
+
+.home-marketing{
+	&_baner-1{
+		margin-top: 28px;
+		width: 847.5px;
+		height: 100px;
+	}
+}
+
+.home{
+	&__level-2{
+		margin-top: 10px;
+	}
+
+	&__level-3{
+		margin-top: 10px;
+	}
+}
+
+.home-directory{
+	&__wrap{
+		background-color: $black-purpur;
+		padding: 15px;
+		
+		ul{
+				list-style-type: none;
+				padding: 0 0 0 0;
+				-webkit-column-count:2;  
+    			-moz-column-count:2;  
+    			column-count:2;
+    			margin: 0;
 		}
 
 		a{
 			display: block;
+			font-family: $vremena;
+			font-weight: normal;
+			font-size: 18px;
+			font-style: normal;
+			color: #fff;
+			padding: 4.3px 0;
+		}
+	}
+}
+
+.home-blogs{
+	&__post{
+
+		&_title{
+			margin-top: 0;
+
+			a{
+				color: $pink;
+				font-family: $vremena;
+				font-weight: bold;
+			}
+		}
+
+		article{
+			font-family: $vremena;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 1;
+			margin-bottom: 10px;
+		}
+
+		&_info{
+
+			.glyphicon{
+				color: $pink;
+				font-size: 24px;
+
+				time{
+					font-family: $souses;
+					font-size: 16px;
+					padding: 5px;
+				}
+
+				a{
+					font-family: $vremena;
+					font-size: 16px;
+					color: $pink;
+					padding-left: 5px;
+				}
+
+				&:last-child{
+					float:right;
+				}
+			}			
+		}
+	}
+}
+
+.home-map{
+	&__wrap{
+		width: 100%;
+		height: 630.7px;
+	}
+}
+
+.home-ads{
+
+	&__post{
+		&_title{
+			margin-top: 0;
+
+			a{
+				color: $orange;
+				font-family: $vremena;
+				font-weight: bold;
+			}
+		}
+
+		img{
+			display: inline-block;
+			width: 200px;
+			height: 113px;
+		}
+
+		article{
+			display: inline-block;
+			width: 60%;
+			font-family: $vremena;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 1;
+			vertical-align: top;
+		}
+
+		&_info{
+			width: 100%;
+			margin-top: 5px;
+
+			.glyphicon{
+				color: $orange;
+				font-size: 24px;
+
+				time{
+					font-family: $souses;
+					font-size: 16px;
+					padding: 5px;
+				}
+
+				a{
+					font-family: $vremena;
+					font-size: 16px;
+					color: $orange;
+					padding-left: 5px;
+				}
+			}			
 		}
 	}
 }
