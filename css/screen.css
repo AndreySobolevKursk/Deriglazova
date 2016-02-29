@@ -494,23 +494,23 @@ main .home-content-title_red:first-letter {
   height: 630.7px;
 }
 
-/* line 557, ../sass/screen.scss */
+/* line 558, ../sass/screen.scss */
 .home-ads__post_title {
   margin-top: 0;
 }
-/* line 560, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 .home-ads__post_title a {
   color: #F9690E;
   font-family: "Vremena Grotesk";
   font-weight: bold;
 }
-/* line 567, ../sass/screen.scss */
+/* line 568, ../sass/screen.scss */
 .home-ads__post img {
   display: inline-block;
   width: 200px;
   height: 113px;
 }
-/* line 573, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .home-ads__post article {
   display: inline-block;
   width: 60%;
@@ -520,26 +520,86 @@ main .home-content-title_red:first-letter {
   line-height: 1;
   vertical-align: top;
 }
-/* line 583, ../sass/screen.scss */
+/* line 584, ../sass/screen.scss */
 .home-ads__post_info {
   width: 100%;
   margin-top: 5px;
 }
-/* line 587, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 .home-ads__post_info .glyphicon {
   color: #F9690E;
   font-size: 24px;
 }
-/* line 591, ../sass/screen.scss */
+/* line 592, ../sass/screen.scss */
 .home-ads__post_info .glyphicon time {
   font-family: "Souses";
   font-size: 16px;
   padding: 5px;
 }
-/* line 597, ../sass/screen.scss */
+/* line 598, ../sass/screen.scss */
 .home-ads__post_info .glyphicon a {
   font-family: "Vremena Grotesk";
   font-size: 16px;
   color: #F9690E;
   padding-left: 5px;
+}
+
+/* line 609, ../sass/screen.scss */
+.footer {
+  background-color: #1E824C;
+  margin-top: 40px;
+}
+/* line 613, ../sass/screen.scss */
+.footer__title {
+  color: #fff;
+  font-family: "Souses";
+  font-size: 18px;
+}
+/* line 619, ../sass/screen.scss */
+.footer__menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 624, ../sass/screen.scss */
+.footer__menu li {
+  padding: 5px 0;
+}
+/* line 627, ../sass/screen.scss */
+.footer__menu li a {
+  font-family: "Vremena Grotesk";
+  color: #fff;
+}
+/* line 634, ../sass/screen.scss */
+.footer__col {
+  text-align: center;
+}
+/* line 638, ../sass/screen.scss */
+.footer .footer-logo-wrap {
+  padding-top: 12.7px;
+}
+/* line 641, ../sass/screen.scss */
+.footer .footer-logo-wrap img {
+  display: inline-block;
+}
+/* line 646, ../sass/screen.scss */
+.footer #footer-logo {
+  height: 70px;
+}
+/* line 650, ../sass/screen.scss */
+.footer #footer-title {
+  vertical-align: bottom;
+  display: inline-block;
+}
+/* line 654, ../sass/screen.scss */
+.footer #footer-title span {
+  display: block;
+  font-family: 'Souses';
+  font-size: 12px;
+  font-style: normal;
+  color: #fff;
+}
+/* line 662, ../sass/screen.scss */
+.footer #footer-title span:first-child {
+  font-size: 18px;
 }
